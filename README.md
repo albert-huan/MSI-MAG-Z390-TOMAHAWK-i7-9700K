@@ -27,8 +27,6 @@
 | 有线网卡 | 双网卡 							   |
 | 无线网卡 | NA 								   |
 
-### 安装教程
-
 #### BIOS设置
 
 > 升级最新BIOS
@@ -40,19 +38,6 @@
 - OC(Overclocking) -> CPU 特征 -> Intel 虚拟化技术 **[允许]**
 - OC(Overclocking) -> CPU 特征 -> Intel VT-D 技术 **[禁止]**
 - OC(Overclocking) -> CPU 特征 -> CFG锁定 **[禁止]**
-
-按需设置：
-
-- STTINGS -> 高级 -> 内建显示配置 -> 设置第一显卡 **[PEG]**  *(仅同时拥有核显及独显需要手动设置)*
-- STTINGS -> 高级 -> 内建显示配置 -> 集显共享内存 **[64M]** *(如果使用拥有核显的处理器)*
-- STTINGS -> 高级 -> 内建显示配置 -> 集成显卡多显示器 **[允许]** *(如果使用拥有核显的处理器)*
-- STTINGS -> 高级 -> PCI子系统设置 -> Above 4G memory/Crypto Currency mining **[允许]**
-- STTINGS -> 高级 -> USB设置 -> XHCI Hand-off **[允许]**
-- STTINGS -> 高级 -> USB设置 -> 传统USB支持 **[允许]**
-- STTINGS -> 高级 -> 电源管理设置 -> ErP Ready **[允许]**
-- STTINGS -> 高级 -> Windows操作系统的配置 -> Windows 10 WHQL支持 **[允许]**
-- STTINGS -> 高级 -> 唤醒事件设置 -> 唤醒事件管理 **[BIOS]**
-- STTINGS -> 高级 -> 唤醒事件设置 -> USB设备从S3/S4/S5唤醒 **[允许]** *(设置后我这边出现关机下键盘灯仍亮着情况。如出现一样情况，建议关闭，可按电源键唤醒)*
 
 #### 修改config.plist文件
 
